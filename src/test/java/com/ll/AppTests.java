@@ -61,7 +61,7 @@ public class AppTests {
     }
 
     @Test
-    @DisplayName("명언이 등록될 때 마다 생성되는 명언의 번호가 1씩 증가한다.")
+    @DisplayName("명언이 등록될때 마다 생성되는 명언의 번호가 1씩 증가한다.")
     public void t6() {
         String rs = AppTestRunner.run("""
                 등록
